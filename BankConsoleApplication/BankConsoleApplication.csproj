@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38D11E06-64AE-4574-90F6-BEF2305ED298}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BankConsoleApplication</RootNamespace>
+    <AssemblyName>BankConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsTransferLogScreencs.cs" />
+    <Compile Include="Screens\TransactionScreen\clsTotalBalanceScreen.cs" />
+    <Compile Include="Screens\TransactionScreen\clsTransferScreen.cs" />
+    <Compile Include="Screens\TransactionScreen\clsWithdrawScreen.cs" />
+    <Compile Include="Screens\TransactionScreen\clsDepositeScreen.cs" />
+    <Compile Include="Screens\User Screen\clsLoginRegisterListScreen.cs" />
+    <Compile Include="Screens\Menues\clsTransactionMenueScreen.cs" />
+    <Compile Include="Screens\Menues\clsMangeUserMenue.cs" />
+    <Compile Include="Screens\User Screen\clsLoginScreen.cs" />
+    <Compile Include="Screens\Menues\clsMainMenue.cs" />
+    <Compile Include="Screens\User Screen\clsShowUserListScreen.cs" />
+    <Compile Include="Screens\User Screen\clsAddNewUserScreeen.cs" />
+    <Compile Include="Screens\User Screen\clsDeleteUserScreen.cs" />
+    <Compile Include="Screens\User Screen\clsUpdateUserScreen.cs" />
+    <Compile Include="Screens\User Screen\clsFindUserScreen.cs" />
+    <Compile Include="Screens\Client Screen\clsDeleteClientScreen.cs" />
+    <Compile Include="Screens\Client Screen\clsShowClientListScreen.cs" />
+    <Compile Include="Screens\Client Screen\clsAddNewClinet.cs" />
+    <Compile Include="Screens\Client Screen\clsUpdateClientScreen.cs" />
+    <Compile Include="Screens\Client Screen\clsFindClientScreen.cs" />
+    <Compile Include="clsScreen.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankBusinisLayer\BankBusinisLayer.csproj">
+      <Project>{41386403-851b-4b08-9826-c58f3466d23a}</Project>
+      <Name>BankBusinisLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

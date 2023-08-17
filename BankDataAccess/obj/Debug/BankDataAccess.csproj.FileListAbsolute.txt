@@ -1,0 +1,5 @@
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankDataAccess\bin\Debug\BankDataAccess.dll
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankDataAccess\bin\Debug\BankDataAccess.pdb
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankDataAccess\obj\Debug\BankDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankDataAccess\obj\Debug\BankDataAccess.dll
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankDataAccess\obj\Debug\BankDataAccess.pdb

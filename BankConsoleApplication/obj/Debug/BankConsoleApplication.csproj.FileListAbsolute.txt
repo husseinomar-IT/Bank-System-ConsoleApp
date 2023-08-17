@@ -1,0 +1,10 @@
+c:\users\hp\documents\visual studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankConsoleApplication.exe.config
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankConsoleApplication.exe
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankConsoleApplication.pdb
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\obj\Debug\BankConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\obj\Debug\BankConsoleApplication.exe
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\obj\Debug\BankConsoleApplication.pdb
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankBusinisLayer.dll
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankDataAccess.dll
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankBusinisLayer.pdb
+C:\Users\hp\Documents\Visual Studio 2013\Projects\BankConsoleApplication\BankConsoleApplication\bin\Debug\BankDataAccess.pdb
